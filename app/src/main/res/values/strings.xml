@@ -1,0 +1,8 @@
+<resources>
+    <string name="simple_interest">Simple Interest</string>
+    <string name="hint_principal">Principal</string>
+    <string name="hint_rate">Rate Of Interest</string>
+    <string name="hint_time">Time Taken</string>
+    <string name="hint_calculate">Generate</string>
+    <string name="lab">Lab-2</string>
+</resources>
