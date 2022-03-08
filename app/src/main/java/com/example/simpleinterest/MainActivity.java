@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        EditText principal = (EditText) findViewById(R.id.principal);
+        EditText time = (EditText) findViewById(R.id.time);
+        EditText rate = (EditText) findViewById(R.id.rate);
+        Button calculateBtn = (Button) findViewById(R.id.calculateBtn);
+        TextView result = (TextView) findViewById(R.id.result);
+
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
